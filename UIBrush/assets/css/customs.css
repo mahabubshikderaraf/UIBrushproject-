@@ -1,0 +1,371 @@
+*
+    {
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+    }
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.pad{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+header{}
+.navbar-default .navbar-brand {
+    color: #39c9da;
+    font-size: 24px;
+    font-weight: 600;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-brand span{
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #39c9da;
+    background-color: transparent;
+}
+.affix{
+    background: #2e2d326b;
+}
+.navbar-default .navbar-toggle {
+    border-color: #39c6ca;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    /* border-color: #39c9da; */
+    border: transparent;
+    box-shadow: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #39c9da;
+}
+.carousel-inner > .item > img
+    {
+        width: 100%;
+        height: 75vh;
+    }
+
+.carousel-caption 
+    {
+        bottom: auto;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+.carousel-caption h1
+    {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        max-width: 481px;
+        margin: 0 auto;
+        margin-bottom: 36px;
+    }
+
+.btn-custom
+    {
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #3ac9d9;
+        border-radius: 0;
+        padding: 10px 30px;
+    }
+
+.btn-custom:hover
+    {   
+        background-color: #0d3c42;
+        color: #fff !important;
+        font-weight: 600;
+    }
+
+.about-us-section
+    {
+        padding: 25px 0 50px;
+    }
+
+.heading
+    {
+        text-align: center;
+    }
+
+.heading h2
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+
+.heading span 
+    {
+        margin: 0 auto;
+        height: 3px;
+        width: 10%;
+        background-color: #3ac9d9;
+        display: inline-block;
+        /*opacity: 0;*/
+        transform: scale(0);
+    }
+
+.heading:hover span
+    {
+/*        opacity: 1;*/
+        transform: scale(1);
+    }
+
+.heading p
+    {
+        max-width: 50%;
+        margin: 0 auto;
+        color: #9a9a9a;
+        padding-bottom: 50px;
+    }
+.about-section{
+}
+.heading{
+    text-align:  center;
+    padding-bottom: 50px;
+}
+.heading h1{
+    text-transform:  uppercase;
+    font-weight: 600;
+}
+.heading p{
+    color: #898989;
+    max-width:  600px;
+    margin:  0 auto;
+}
+@media (max-width: 768px){
+    .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active{
+    height: 75vh;
+    }
+}
+.about-img{}
+.about-img img{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.about-content{}
+.about-content h2{
+    margin: 0px 0 5px 0;
+}
+.about-content span{
+    width: 100px;
+    height: 4px;
+    background: #39c9da;
+    display: inline-block;
+}
+.about-content p{
+    padding: 11.8px 0;
+    margin: 0;
+    color: #898989;
+}
+.about-content a{}
+
+
+
+.portfolio-section
+    {
+        background-color: #f4f4f4;
+        padding: 25px 0 50px;
+    }
+
+
+.portfolio-section h2
+    {
+        
+    }
+
+.portfolio-section p
+    {
+        
+    }
+
+.portfolio
+    {
+        background-color: #fff;
+        width: 103%;
+    }
+
+.portfolio-img
+    {
+        position: relative;
+    }
+.portfolio-img:hover .overlay
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #3ac9d93d;
+    }
+
+.portfolio-img img
+    {
+        width: 100%;
+    }
+
+.portfolio-img .btn-portfolio
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        color: #fff;
+        text-transform: uppercase;
+        border: 1px solid;
+        padding: 10px 26px;
+        border-radius: 0;
+        opacity: 0;
+    }
+
+
+.portfolio-img:hover .btn-portfolio
+    {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        color:#fff;
+    }
+
+.portfolio .list-inline
+    {
+            overflow: hidden;
+        padding: 10px;
+    }
+
+.portfolio .list-inline li
+    {
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+
+.portfolio .list-inline li strong
+    {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+.portfolio .list-inline span
+    {
+        float: right;
+        color: #d4d4d4;
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+
+.portfolio .list-inline:hover 
+    {
+        color:#3ac9d9;
+    }
+
+
+.service{
+	text-align:center;
+	padding: 25px 0;
+	margin:0 10px;
+	border:1px solid #b2a69d3d;
+	background-color:white;
+}
+.service p{
+	margin:20px;
+}
+.service i{
+	font-size:40px;
+	color:#39c9da;
+}
+.btn-services{
+	background-color:#39312e;
+}
+.service:hover{
+	background-color:#39c9da;
+	transition:0.4s;
+}
+.service:hover p{
+	color:white;
+	transition:0.4s;
+}
+.service:hover i{
+	color:white;
+	transition:0.4s;
+}
+.service:hover a{
+	color:#39312e;
+	background-color:white;
+	transition:0.4s;
+}
+.service:hover h4{
+	color:white;
+	transition:0.4s;
+}
+
+.contact-section{
+    background-color: #f4f4f4;
+}
+.contact-info{
+    margin-top: 50px;
+}
+.contact-info h2{
+    margin: 0 0 5px 0;
+    text-transform:  uppercase;
+    font-weight: 600;
+}
+.contact-info span{
+    width: 100px;
+    height: 4px;
+    background: #39c9da;
+    display: inline-block;
+}
+.contact-info p{
+    padding: 5px 0;
+}
+.contact-info address{}
+.contact-info address p{}
+
+
+.footer-section
+    {
+        background-color: #2f2f2f;
+    }
+
+.footer-section .copyright
+    {
+        text-align: center;
+    }
+
+.footer-section .copyright p
+    {
+        color: #fff;
+        margin: 10px 0;
+    }
+
+.footer-section .copyright span
+    {
+        color: #3ac9d9;
+    }
+
+.form-control:focus 
+    {
+        border-color: #ffffff;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 255, 255, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 255, 255, 0.6);
+    }
+
+.affix
+    {
+        background-color: #2F2F2F;
+    }
